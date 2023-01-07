@@ -1,9 +1,3 @@
- function sayOuch() {
-  alert('Ouch! Stop poking me!');
- }
- var foxImage = document.querySelector('img');
-foxImage.onclick = sayOuch;
-
 let myButton = document.querySelector("button");
 let myHeading = document.querySelector("h1");
 
@@ -23,5 +17,4 @@ if (!localStorage.getItem("name")) {
 myButton.onclick = () => {
   setUserName();
 };
-
 
